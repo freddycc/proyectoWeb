@@ -1,0 +1,12 @@
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.Inicio.resources
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.Login.resources
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.Properties.Resources.resources
+C:\Web2\proyectoWeb\eQuiz\eQuiz\bin\Debug\eQuiz.exe
+C:\Web2\proyectoWeb\eQuiz\eQuiz\bin\Debug\eQuiz.pdb
+C:\Web2\proyectoWeb\eQuiz\eQuiz\bin\Debug\System.Web.dll
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.exe
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.pdb
+C:\Web2\proyectoWeb\eQuiz\eQuiz\obj\x86\Debug\eQuiz.FormNuevo.resources

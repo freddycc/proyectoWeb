@@ -100,6 +100,7 @@
             this.bnIniciar.TabIndex = 6;
             this.bnIniciar.Text = "Iniciar";
             this.bnIniciar.UseVisualStyleBackColor = false;
+            this.bnIniciar.Click += new System.EventHandler(this.bnIniciar_Click);
             // 
             // Login
             // 

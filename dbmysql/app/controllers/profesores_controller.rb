@@ -22,6 +22,17 @@ class ProfesoresController < ApplicationController
     end
   end
 
+  def add
+    @profesore = Profesore.new
+    @profesore.nombre = paramz[:nombre]
+    @profesore.apellido = paramz[:apellido]
+    @profesore.cedula = paramz[:cedula]
+    @profesore.email = paramz[:email]
+    @profesore.password = paramz[:password]
+    @profesore.username = paramz[:username]
+    
+    @profesore.save
+  end
   # GET /profesores/new
   # GET /profesores/new.json
   def new

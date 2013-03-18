@@ -31,5 +31,12 @@ namespace eQuiz
         {
             this.txtUsuario.Focus();
         }
+
+        private void bnIniciar_Click(object sender, EventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.Show();            
+            this.Hide();
+        }
     }
 }
