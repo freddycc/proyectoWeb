@@ -24,14 +24,17 @@ class ProfesoresController < ApplicationController
 
   def add
     @profesore = Profesore.new
-    @profesore.nombre = paramz[:nombre]
-    @profesore.apellido = paramz[:apellido]
-    @profesore.cedula = paramz[:cedula]
-    @profesore.email = paramz[:email]
-    @profesore.password = paramz[:password]
-    @profesore.username = paramz[:username]
+    @profesore.nombre = params[:nombre]
+    @profesore.apellido = params[:apellido]
+    @profesore.cedula = params[:cedula]
+    @profesore.email = params[:email]
+    @profesore.password = params[:password]
+    @profesore.username = params[:username]
     
-    @profesore.save
+    respond_to do |format|
+      format.json { render json: @profesore }
+    end
+    #@profesore.save
   end
   # GET /profesores/new
   # GET /profesores/new.json

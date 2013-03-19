@@ -45,7 +45,7 @@ namespace eQuiz
                 url = "http://localhost:3000/estudiantes";
             }
             HttpConexion ejecutar = new HttpConexion();
-            ejecutar.HttpPost(url, var, valor);
+            this.txtResponse.Text = ejecutar.HttpPost(url, var, valor);
         }
     }
 }

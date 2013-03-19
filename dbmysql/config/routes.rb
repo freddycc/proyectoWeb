@@ -10,7 +10,7 @@ Dbmysql::Application.routes.draw do
 
   resources :estudiantes
 
-  match ':controller/:action'
+  match 'profesores/add' => 'profesores#add', :via => :post
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

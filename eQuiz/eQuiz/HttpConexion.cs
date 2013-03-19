@@ -63,7 +63,7 @@ namespace eQuiz
             HttpWebRequest req = WebRequest.Create(new Uri(url))
                                  as HttpWebRequest;
             req.Method = "POST";
-            req.ContentType = "profesores/new";
+            req.ContentType = "application/x-www-form-urlencoded";
 
             // Build a string with all the params, properly encoded.
             // We assume that the arrays paramName and paramVal are
@@ -77,6 +77,7 @@ namespace eQuiz
                 paramz.Append("&");
             }
 
+            //this.EjecutarAccion(url, "post", paramz);
             // Encode the parameters as form data:
             byte[] formData = UTF8Encoding.UTF8.GetBytes(paramz.ToString());
             req.ContentLength = formData.Length;
